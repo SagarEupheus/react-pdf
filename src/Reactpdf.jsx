@@ -36,31 +36,48 @@ const Reactpdf = () => {
                 <Text className="text-[13px] text-[black] pl-2 ">Address*: <span className="text-[red] underline">B-2345 AMAR COLONY LAJPAT NAGAR </span> <span className="text-[black] absolute top-[142px]">____________________________________________________________________________</span></Text><br />
                 <Text className="text-[13px] text-[black] pl-2 ">City*: <span className="text-[red] underline">NEW DELHI </span>
                  
-                <span className="text-[black] absolute top-[166.3px]">__________________</span><span className="ml-[120px] underline">State*:</span><span className="text-[red] underline">DELHI </span>
+                <span className="text-[black] absolute top-[166.3px]">__________________</span><span className="ml-[120px] underline pl-10">State*:</span><span className="text-[red] underline">DELHI </span>
                 <span className="text-[black] absolute top-[166.3px]">__________________</span><span className="ml-[120px] underline">Pin Code*:</span><span className="text-[red] underline">110016 </span> <span className="text-[black] absolute top-[166.3px]">__________________</span>
                 </Text> <br />
-                <Text className="text-[13px] text-[black] pl-2 ">Phone*: <span className="text-[red] underline">011- 12345678 </span><span className="text-[black] absolute top-[166.3px]">__________________</span>
-                <span className="text-[black] absolute top-[181.3px]">__________________</span><span className="ml-[120px] underline">Mobile*:</span><span className="text-[red] underline">999999999 </span>
-                <span className="text-[black] absolute top-[181.3px]">__________________</span><span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[181.3px]">______</span>
+                <Text className="text-[13px] text-[black] pl-2 ">Phone*: <span className="text-[red] underline">011- 12345678 </span>
+                {/* <span className="text-[black] absolute top-[191.3px]">__________________</span> */}
+                <span className="text-[black] absolute top-[191.3px]">__________________</span><span className="ml-[120px] underline">Mobile*:</span><span className="text-[red] underline">999999999 </span>
+                <span className="text-[black] absolute top-[191.3px]">__________________</span><span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[191.3px]">______</span>
                 </Text> <br />
-                <Text className="text-[13px] text-[black] pl-2 ">Firm/ Company/Trust Registration Number*: <span className="text-[red] underline">U33220DL2011PTC00234 </span><span className="text-[black] absolute top-[205.3px]">__________________</span>
-                <span className="text-[black] absolute top-[205.3px]">__________________</span><span className="ml-[120px] underline"> Dated:</span><span className="text-[red] underline"> 13-10-2021 </span><span className="text-[black] absolute top-[205.3px]">__________________</span>
+                <Text className="text-[13px] text-[black] pl-2 ">Firm/ Company/Trust Registration Number*: <span className="text-[red] underline">U33220DL2011PTC00234 </span><span className="text-[black] absolute top-[215.3px]">__________________</span>
+                <span className="text-[black] absolute top-[215.3px]">__________________</span><span className="ml-[120px] underline"> Dated:</span><span className="text-[red] underline"> 13-10-2021 </span><span className="text-[black] absolute top-[215.3px]">__________________</span>
                 {/* <span className="text-[black] absolute top-[181.3px]">__________________</span><span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[181.3px]">______</span> */}
                 </Text> <br />
-                <Text className="text-[13px] text-[black] pl-2 ">PAN No*: <span className="text-[red] underline">AAACA1234D </span><span className="text-[black] absolute top-[205.3px]">__________________</span>
-                <span className="text-[black] absolute top-[229.1px]">__________________</span><span className="ml-[120px] underline"> ( Copy Enclosed ) GST. No*:</span><span className="text-[red] underline"> GSTIN AAACA1234DIZL </span><span className="text-[black] absolute top-[229.1px]">__________________</span>
+                <Text className="text-[13px] text-[black] pl-2 ">PAN No*: <span className="text-[red] underline">AAACA1234D </span>
+                {/* <span className="text-[black] absolute top-[205.3px]">__________________</span> */}
+                <span className="text-[black] absolute top-[239.1px]">__________________</span><span className="ml-[120px] underline"> ( Copy Enclosed ) GST. No*:</span><span className="text-[red] underline"> GSTIN AAACA1234DIZL </span><span className="text-[black] absolute top-[239.1px]">__________________</span>
                 {/* <span className="text-[black] absolute top-[181.3px]">__________________</span><span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[181.3px]">______</span> */}
                 </Text> <br />
                 <Text className="text-[13px] text-[black] pl-2 ">PAN No*: <span className="text-[red] underline">(Copy enclosed or in case if not registered with GST then furnish declaration in Annexure-B) </span>
                 {/* <span className="text-[black] absolute top-[181.3px]">__________________</span><span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[181.3px]">______</span> */}
                 </Text> <br />
-                <Text className="text-[13px] text-[black] pl-2 ">Year of establishment of business: <span className="text-[red] underline">2011 </span><span className="text-[black] absolute top-[278.3px]">__________________________________________</span>
+                <Text className="text-[13px] text-[black] pl-2 ">Year of establishment of business: <span className="text-[red] underline">2011 </span><span className="text-[black] absolute top-[287.3px]">__________________________________________</span>
                 {/* <span className="ml-[120px] underline">E-Mail*:</span><span className="text-[red] underline">abcbook@gmail.com </span> <span className="text-[black] absolute top-[181.3px]">______</span> */}
                 </Text>
                 
             </div>
           </View>
           {/* 2 */}
+          <View>
+            <div className="w-[770px] bg-slate-200 ml-[25%] h-[25vh] border-[1px] mt-2 border-[black] p-[15px]"> 
+                <Text className="font-bold text-[12px] pl-2">Name of Proprietor/Partner/Director/Trustee*:</Text>
+                <Text className="text-[13px] text-[red] underline">SUSHIL KUMAR SHARMA <span className="text-[black] absolute top-[346px]">______________________________________________________ </span></Text> <br />
+                <Text className="text-[12px] text-[black] pl-2 ">PAN No.*: <span className="text-[red] underline"> AAAPS1234H</span> <span className="text-[black] absolute top-[371px]">_______________________________________________________</span></Text> <br />
+                <Text className="text-[13px] text-[black] pl-2 ">Address*: <span className="text-[red] underline mr-10" >C-18 NIRMAN VIHAR DELHI  </span> 
+              </Text> 
+                <Text className="text-[13px] text-[black] no-underline pl-4 ">Pin Code*: <span className="text-[red] underline">110092 </span><span className="text-[black] absolute top-[394px] left-[700px] ">______________________________</span><br />   
+              </Text> <br />
+                <Text className="text-[13px] text-[black] pl-2 ">Phone*: <span className="text-[red] underline mr-4" >011-432123456   </span><span className="ml-[60px] no-underline">Mobile*:</span><span className="text-[red] underline">991100001234 </span> <span className="text-[black] absolute top-[442px] ">__________</span>
+                <span className="ml-[120px] no-underline">E-Mail*:</span><span className="text-[red] underline">SKHARAMA@GMAIL.COM </span>  <span className="text-[black] absolute top-[442px] ">_____</span>
+                {/* <span className="text-[black] absolute top-[394px] ">______________________________________________________</span> */}
+                </Text>
+            </div>
+          </View>
         
         </Page>
       </Document>
